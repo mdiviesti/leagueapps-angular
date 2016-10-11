@@ -1,0 +1,6 @@
+angular.module('leagueApps.config', [])
+    .constant('$config', {
+        domain: 'https://api.leagueapps.com/v1/sites',
+        siteId: 'YOUR Site_Id',
+        apiKey: 'YOUR API_KEY',
+    });
